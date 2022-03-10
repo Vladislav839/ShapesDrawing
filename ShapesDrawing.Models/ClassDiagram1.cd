@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ShapesDrawing.BL.FigureBase">
+    <Position X="3.75" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgAAAAIAAAACAAAAAAAAAEAAAAAIAAA=</HashCode>
+      <FileName>FigureBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapesDrawing.BL.LineSegment">
+    <Position X="1.75" Y="3.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAggAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LineSegment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapesDrawing.BL.PolyLine">
+    <Position X="5.25" Y="5.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAggAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PolyLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapesDrawing.BL.Shape">
+    <Position X="7" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapesDrawing.BL.Line">
+    <Position X="0.5" Y="5.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Line.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapesDrawing.BL.Ray">
+    <Position X="3" Y="5.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ray.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapesDrawing.BL.Circle">
+    <Position X="5.5" Y="3" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Circle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapesDrawing.BL.Polygon">
+    <Position X="7" Y="3" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAggAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Polygon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapesDrawing.BL.Rectangle">
+    <Position X="9" Y="3" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAIAAggAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapesDrawing.BL.Ellipse">
+    <Position X="9" Y="6" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ellipse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapesDrawing.BL.FigureFactory">
+    <Position X="0.5" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>FigureFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapesDrawing.BL.Settings.FigureSettings">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAIAAAAAAAAAAAAIAAAAAgAAAAAA=</HashCode>
+      <FileName>Settings\FigureSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapesDrawing.BL.Settings.CircleSettings">
+    <Position X="14.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Settings\CircleSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapesDrawing.BL.Settings.DefaultSettings">
+    <Position X="11.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Settings\DefaultSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapesDrawing.BL.Settings.EllipseSettings">
+    <Position X="13" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Settings\EllipseSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapesDrawing.BL.Settings.LineSegmentSettings">
+    <Position X="16.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Settings\LineSegmentSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapesDrawing.BL.Settings.LineSettings">
+    <Position X="11" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Settings\LineSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapesDrawing.BL.Settings.PolygonSettings">
+    <Position X="18.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAIAAAAAAAAAAAAIAAAAAgAAAAAA=</HashCode>
+      <FileName>Settings\PolygonSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapesDrawing.BL.Settings.PolyLineSettings">
+    <Position X="13" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAIAAAAAAAAAAAAIAAAAAgAAAAAA=</HashCode>
+      <FileName>Settings\PolyLineSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapesDrawing.BL.Settings.RaySettings">
+    <Position X="14.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Settings\RaySettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapesDrawing.BL.Settings.RegularShapeSettings">
+    <Position X="16.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAIAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Settings\RegularShapeSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapesDrawing.BL.Settings.RectangleSettings">
+    <Position X="18.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Settings\RectangleSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
